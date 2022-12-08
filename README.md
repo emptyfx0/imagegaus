@@ -4,8 +4,6 @@ This program implements an image gaussian filter and HSV color filter
 
 ### a Gaussian filter
 
-https://www.geeksforgeeks.org/apply-a-gauss-filter-to-an-image-with-python/
-
 A Gaussian Filter is a low pass filter used for reducing noise (high frequency components) and blurring regions of an image. The filter is implemented as an Odd sized Symmetric Kernel (DIP version of a Matrix) which is passed through each pixel of the Region of Interest to get the desired effect. The kernel is not hard towards drastic color changed (edges) due to it the pixels towards the center of the kernel having more weightage towards the final value then the periphery. A Gaussian Filter could be considered as an approximation of the Gaussian Function (mathematics).
 
 ### HSV
